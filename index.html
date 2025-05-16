@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Shubham Kumar - Resume</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+  </style>
 </head>
-<body class="bg-gray-100 text-gray-800 flex items-center justify-center min-h-screen">
-  <div class="bg-white p-8 rounded-lg shadow-md text-center max-w-xl">
-    <h1 class="text-3xl font-bold mb-4">Shubham Kumar</h1>
-    <p class="mb-4 text-sm text-gray-600">Welcome to my resume site. You can view or download my resume below.</p>
-    <a href="shubham.pdf" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700" target="_blank" rel="noopener noreferrer">
-      View / Download Resume
-    </a>
-  </div>
+<body class="h-screen w-screen m-0 p-0 overflow-hidden">
+  <iframe
+    src="Shubham Kumar - Resume.pdf"
+    type="application/pdf"
+    class="w-full h-full border-none"
+    frameborder="0"
+  >
+    Your browser does not support PDFs. <a href="Shubham Kumar - Resume.pdf">Download here</a>.
+  </iframe>
 </body>
 </html>
